@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Lora', serif;
-    background: url('2.jpeg') center center / cover no-repeat;
+    background: url('./2.jpeg') center center / cover no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
     display: flex;
@@ -98,7 +98,7 @@ main {
 }
 
 .alt-bg {
-    background: rgba(255, 255, 255, 0.5);
+    background: transparent;
 }
 
 .hero-section {
@@ -136,7 +136,7 @@ main {
 }
 
 .presentation-box {
-    background: rgba(255, 255, 255, 0.85);
+    background: #ffffff;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -159,7 +159,7 @@ main {
 }
 
 .content-box {
-    background: rgba(255, 255, 255, 0.85);
+    background: #ffffff;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -222,7 +222,7 @@ main {
 }
 
 .info-card {
-    background: rgba(255, 255, 255, 0.95);
+    background: #ffffff;
     padding: 20px 25px;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
@@ -252,7 +252,7 @@ main {
 
 .placeholder-image {
     font-size: 5rem;
-    background: rgba(255, 255, 255, 0.9);
+    background: #ffffff;
     padding: 40px;
     border-radius: 15px;
     display: inline-block;
@@ -260,7 +260,7 @@ main {
 
 /* Kintsugi Section */
 .kintsugi-intro {
-    background: rgba(255, 255, 255, 0.85);
+    background: #ffffff;
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 30px;
@@ -284,7 +284,7 @@ main {
 
 /* Meditation Box */
 .meditation-box {
-    background: rgba(255, 255, 255, 0.85);
+    background: #ffffff;
     padding: 40px;
     border-radius: 20px;
     margin-top: 30px;
@@ -309,7 +309,7 @@ main {
 }
 
 .audio-placeholder {
-    background: rgba(255, 255, 255, 0.95);
+    background: #ffffff;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -340,7 +340,7 @@ main {
 }
 
 .reflection-box {
-    background: rgba(255, 255, 255, 0.85);
+    background: #ffffff;
     padding: 30px;
     border-radius: 15px;
     margin-top: 40px;
