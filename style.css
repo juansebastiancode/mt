@@ -10,11 +10,21 @@ html {
 
 body {
     font-family: 'Lora', serif;
-    background: #fef9e7;
+    background: 
+        url("data:image/svg+xml,%3Csvg width='200' height='1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 1000 Q30 900 40 800 T60 600 T80 400 T100 200 T120 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M180 1000 Q170 900 160 800 T140 600 T120 400 T100 200 T80 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M100 1000 Q95 900 90 800 T80 600 T70 400 T60 200 T50 50' stroke='%23a09080' stroke-width='7' fill='none' opacity='0.04'/%3E%3C/svg%3E") 0% 100%,
+        url("data:image/svg+xml,%3Csvg width='200' height='1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 1000 Q30 900 40 800 T60 600 T80 400 T100 200 T120 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M180 1000 Q170 900 160 800 T140 600 T120 400 T100 200 T80 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M100 1000 Q95 900 90 800 T80 600 T70 400 T60 200 T50 50' stroke='%23a09080' stroke-width='7' fill='none' opacity='0.04'/%3E%3C/svg%3E") 25% 100%,
+        url("data:image/svg+xml,%3Csvg width='200' height='1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 1000 Q30 900 40 800 T60 600 T80 400 T100 200 T120 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M180 1000 Q170 900 160 800 T140 600 T120 400 T100 200 T80 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M100 1000 Q95 900 90 800 T80 600 T70 400 T60 200 T50 50' stroke='%23a09080' stroke-width='7' fill='none' opacity='0.04'/%3E%3C/svg%3E") 50% 100%,
+        url("data:image/svg+xml,%3Csvg width='200' height='1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 1000 Q30 900 40 800 T60 600 T80 400 T100 200 T120 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M180 1000 Q170 900 160 800 T140 600 T120 400 T100 200 T80 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M100 1000 Q95 900 90 800 T80 600 T70 400 T60 200 T50 50' stroke='%23a09080' stroke-width='7' fill='none' opacity='0.04'/%3E%3C/svg%3E") 75% 100%,
+        url("data:image/svg+xml,%3Csvg width='200' height='1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 1000 Q30 900 40 800 T60 600 T80 400 T100 200 T120 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M180 1000 Q170 900 160 800 T140 600 T120 400 T100 200 T80 50' stroke='%23a09080' stroke-width='8' fill='none' opacity='0.06'/%3E%3Cpath d='M100 1000 Q95 900 90 800 T80 600 T70 400 T60 200 T50 50' stroke='%23a09080' stroke-width='7' fill='none' opacity='0.04'/%3E%3C/svg%3E") 100% 100%,
+        linear-gradient(135deg, #fef9e7 0%, #f5e8d4 100%);
+    background-size: 200px 100vh, 200px 100vh, 200px 100vh, 200px 100vh, 200px 100vh, 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 0% 100%, 25% 100%, 50% 100%, 75% 100%, 100% 100%, 0 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #5a5a5a;
+    color: #5d4d3f;
     position: relative;
 }
 
@@ -47,7 +57,7 @@ header .container {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #7a7a7a;
+    color: #7a6a5a;
     letter-spacing: 1px;
 }
 
@@ -59,7 +69,7 @@ nav ul {
 
 nav a {
     font-family: 'Lora', serif;
-    color: #7a7a7a;
+    color: #7a6a5a;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
@@ -71,7 +81,7 @@ nav a {
 nav a:hover {
     background: rgba(240, 240, 240, 0.8);
     transform: translateY(-2px);
-    color: #5a5a5a;
+    color: #5d4d3f;
 }
 
 /* Main */
@@ -98,10 +108,10 @@ main {
 
 .main-title {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    color: #a0a0a0;
-    margin-bottom: 40px;
+    color: #8a7a6a;
+    margin-bottom: 60px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.03);
     letter-spacing: 1px;
     text-align: center;
@@ -111,7 +121,7 @@ main {
     font-family: 'Playfair Display', serif;
     font-size: 2.2rem;
     font-weight: 700;
-    color: #9a9a9a;
+    color: #8a7a6a;
     margin-bottom: 30px;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.03);
@@ -121,14 +131,14 @@ main {
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     font-weight: 600;
-    color: #a8a8a8;
+    color: #8f7f6f;
     margin: 30px 0 20px;
 }
 
 .presentation-box {
     background: #ffffff;
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     max-width: 900px;
     margin: 0 auto;
@@ -137,37 +147,43 @@ main {
 
 .presentation-box h3 {
     font-family: 'Playfair Display', serif;
-    color: #a0a0a0;
+    color: #8a7a6a;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
 .presentation-box p {
     margin-bottom: 15px;
-    font-size: 1.1rem;
-    color: #555;
+    font-size: 1.15rem;
+    color: #5d4d3f;
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content-box {
     background: #ffffff;
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .intro-text {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    color: #8a8a8a;
+    color: #7a6a5a;
     margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text-content {
     line-height: 1.9;
-    font-size: 1.05rem;
-    color: #555;
+    font-size: 1.1rem;
+    color: #5d4d3f;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text-content p {
@@ -175,7 +191,7 @@ main {
 }
 
 .text-content strong {
-    color: #a0a0a0;
+    color: #8a7a6a;
     font-weight: 600;
 }
 
@@ -187,10 +203,11 @@ main {
 
 .btn-primary {
     display: inline-block;
-    background: linear-gradient(135deg, #e0e0e0 0%, #d0d0d0 100%);
-    color: #666;
+    background: transparent;
+    color: #6a5b4a;
     padding: 15px 35px;
     border-radius: 30px;
+    border: 2px solid #7a6b5a;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
@@ -202,6 +219,7 @@ main {
 .btn-primary:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    background: rgba(122, 107, 90, 0.1);
 }
 
 .info-cards {
@@ -215,9 +233,9 @@ main {
 .info-card {
     background: #ffffff;
     padding: 20px 25px;
-    border-radius: 15px;
+    border-radius: 12px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    min-width: 200px;
+    width: 280px;
     transition: transform 0.3s ease;
 }
 
@@ -228,7 +246,7 @@ main {
 .info-card .icon {
     display: block;
     margin-bottom: 10px;
-    color: #9a9a9a;
+    color: #8a7a6a;
 }
 
 .info-card .icon svg {
@@ -237,7 +255,7 @@ main {
 }
 
 .info-card p {
-    color: #666;
+    color: #6a5b4a;
     font-size: 0.95rem;
     margin: 0;
 }
@@ -251,7 +269,7 @@ main {
     padding: 40px;
     border-radius: 15px;
     display: inline-block;
-    color: #9a9a9a;
+    color: #8a7a6a;
 }
 
 .placeholder-image svg {
@@ -279,33 +297,42 @@ main {
 .kintsugi-intro {
     background: #ffffff;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 12px;
     margin-bottom: 30px;
     border-left: 5px solid #d0d0d0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .kintsugi-intro p {
     margin-bottom: 15px;
     line-height: 1.8;
-    color: #555;
+    color: #5d4d3f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
 }
 
 .quote {
     font-style: italic;
-    color: #888;
-    font-size: 1.1rem;
+    color: #7a6a5a;
+    font-size: 1.15rem;
     padding-left: 20px;
     border-left: 3px solid #d0d0d0;
     margin: 15px 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Meditation Box */
 .meditation-box {
     background: #ffffff;
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 12px;
     margin-top: 30px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .meditation-image {
@@ -334,8 +361,9 @@ main {
 
 .meditation-text {
     line-height: 1.9;
-    color: #555;
-    font-size: 1.05rem;
+    color: #5d4d3f;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .meditation-text p {
@@ -343,12 +371,12 @@ main {
 }
 
 .meditation-text strong {
-    color: #a0a0a0;
+    color: #8a7a6a;
     font-weight: 600;
 }
 
 .pause {
-    color: #999;
+    color: #8a7a6a;
     font-style: italic;
     text-align: center;
     margin: 20px 0;
@@ -357,17 +385,47 @@ main {
 .reflection-box {
     background: #ffffff;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 12px;
     margin-top: 40px;
     border-left: 5px solid #c0c0c0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .reflection-question {
-    font-size: 1.15rem;
-    color: #555;
+    font-size: 1.2rem;
+    color: #5d4d3f;
     font-weight: 500;
     margin-top: 15px;
     line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Thank You Section */
+.thank-you-section {
+    padding: 80px 0;
+    text-align: center;
+    background: transparent;
+}
+
+.thank-you-message {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #8a7a6a;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.03);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.thank-you-submessage {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #8a7a6a;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.03);
+    letter-spacing: 1px;
 }
 
 /* Footer */
@@ -380,7 +438,7 @@ footer {
 }
 
 footer p {
-    color: #666;
+    color: #6a5b4a;
     font-size: 0.95rem;
 }
 
@@ -408,8 +466,9 @@ footer p {
     }
 
     .main-title {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         padding: 0 10px;
+        margin-bottom: 40px;
     }
 
     .section-title {
@@ -458,6 +517,20 @@ footer p {
     .kintsugi-intro,
     .reflection-box {
         padding: 20px;
+    }
+
+    .thank-you-section {
+        padding: 50px 0;
+    }
+
+    .thank-you-message {
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+
+    .thank-you-submessage {
+        font-size: 1.5rem;
+        padding: 0 10px;
     }
 
     .meditation-icon {
