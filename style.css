@@ -286,10 +286,10 @@ main {
 }
 
 .psicoeducacion-img {
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 650px;
+    height: 455px;
+    border-radius: 12px;
+    object-fit: contain;
     display: block;
     margin: 0 auto;
     box-shadow: 
@@ -297,6 +297,7 @@ main {
         0 0 40px rgba(254, 249, 231, 0.4),
         0 4px 15px rgba(0, 0, 0, 0.1);
     border: 3px solid rgba(245, 232, 208, 0.3);
+    background: #ffffff;
 }
 
 .text-content .psicoeducacion-image {
@@ -351,9 +352,10 @@ main {
     margin-bottom: 30px;
 }
 
-.meditation-icon {
-    width: 280px;
-    height: 280px;
+.meditation-icon,
+.round-image {
+    width: 380px;
+    height: 380px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
@@ -567,14 +569,17 @@ footer p {
         padding: 0 10px;
     }
 
-    .meditation-icon {
-        width: 220px;
-        height: 220px;
+    .meditation-icon,
+    .round-image {
+        width: 300px;
+        height: 300px;
     }
 
     .psicoeducacion-img {
-        width: 220px;
-        height: 220px;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        aspect-ratio: 5/3.5;
     }
 
     /* Fix para móviles: background-attachment fixed no funciona bien */
